@@ -1,0 +1,106 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  background-color: #ffeef2;
+  color: #444;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #d81b60;
+  font-size: 42px;
+  margin-top: 10px;
+}
+
+h2, h3 {
+  color: #d81b60;
+  font-weight: 600;
+}
+
+#timer {
+  font-size: 20px;
+  margin: 16px 0 30px;
+  color: #333;
+}
+
+.timer-box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1px;
+  max-width: 300px;
+  margin: 0 auto 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f8bbd0; /* rosa claro */
+}
+
+#timer {
+  font-size: 20px;
+  font-weight: 600;
+  color: #d81b60;
+}
+
+
+/* Carrossel */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  background: #fff;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel img {
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  background-color: #000;
+}
+
+.mensagem-final {
+  background-color: #ffffff;
+  margin: 10px auto 10px;
+  padding: 10px;
+  max-width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid #f8bbd0; /* rosa claro */
+  color: #d81b60;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  
+}
+
+.finalizacao {
+  text-align: center;
+  margin: 30px 0 50px;
+  font-size: 20px;
+  color: #c2185b;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+
